@@ -1,0 +1,214 @@
+body,html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+#logo {
+    width: 40px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.nav-ul li  {
+float: left;
+list-style: none;
+padding: 4px;
+margin-top: -10px;
+margin-left: 10px;
+
+}
+
+.nav-a {
+    text-decoration: none;
+    color: gray;
+}
+.sec1 {
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.sec1 h1 {
+    margin-bottom: -20px;
+}
+
+.sec1 h3 {
+    margin-top: -20px;
+}
+
+.mytitle {
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.sec2 {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+    background-color:rgb(109, 113, 117);
+    padding: 12px;
+}
+
+#sec {
+    background-color: grey;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-section li {
+    height: 200px;
+    width: 400px;
+    border: 5px solid grey;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+
+#big-section-ul {
+  list-style: none;
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-evenly;
+
+  
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+}
+
+.logo-loc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.big-sec-h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.sec4 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.logo2 {
+    width: 50px;
+    height: 20px;
+}
+
+#div1 {
+   
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+#div1-logo {
+    margin: 10px;
+}
+
+#div1-title {
+    margin: 10px;
+}
+
+#div1-p {
+    width: 30%;
+    height:auto ;
+    margin: 10px;
+}
+
+.footer {
+    background-color:grey;
+    height: 59vh;
+}
+.last-sec1 {
+    
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-flow: column wrap;
+    width: 500px;
+}
+
+.input2 {
+    margin-top: 10px; 
+}
+
+.input3 {
+    margin-top: 10px;
+}
+
+.submit {
+    margin-top: 10px;
+}
+
+.last-sec2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    
+}
+
+.final-div {
+    width: auto;
+    margin:100px;
+}
+
+.f2 {
+    margin-left: 110px;
+}
+
+.f3 {
+    margin-left: 110px;
+}
+
+.f4 {
+    margin-left: 110px;
+}
+
+
+
+
+
+
+
+
+
+
