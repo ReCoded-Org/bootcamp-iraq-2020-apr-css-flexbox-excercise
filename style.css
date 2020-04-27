@@ -1,0 +1,241 @@
+body,html {
+    width: 100%;
+    height: 100%;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+#logo {
+    width: 40px;
+    height: auto;
+    margin-left: 10px;
+}
+.nav-ul li  {
+float: left;
+list-style: none;
+padding: 4px;
+margin-top: -10px;
+margin-left: 10px;
+}
+.nav-a {
+    text-decoration: none;
+    color: gray;
+}
+.sec1 {
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.sec1 h1 {
+    margin-bottom: -20px;
+}
+.sec1 h3 {
+    margin-top: -20px;
+}
+.mytitle {
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+.sec2 {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+    background-color:rgb(109, 113, 117);
+    padding: 12px;
+}
+#sec {
+    background-color: grey;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    width: 40px;
+    height: auto;
+}
+.big-section {
+    display: flex;
+    flex-direction:column;
+    height: 120vh;
+    background-color:white;
+    align-items: center;
+ 
+    
+}
+
+#big-section-div {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color:grey;
+    font-family: 'Courier New', Courier, monospace;
+}
+#big-section-div div.cards{
+    border: 2px solid black;
+    width: 30%;
+    height:auto;
+    padding: 5px 2px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;    
+    margin-top: 10px;   
+    box-shadow: 2px burlywood;
+}
+
+#the-father{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#before-last{
+    display:flex;
+    flex-direction: column;
+    color: gray;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div-3childern{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.div-child2{
+    flex-grow:4;
+
+}
+.div-child1{
+    flex-grow:4;
+    color: gray;
+}
+.div-child3{
+width: 30%;
+}
+footer{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+#footer-section-one{
+    order:1;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+ 
+    justify-content:space-around;
+    align-items: center;
+}
+
+#footer-section-one form{
+    display: flex;
+    flex-direction: column;
+    width:800px;
+    height: 200px;
+    justify-content: space-between;
+   align-content: center;
+}
+.baby-header{
+    display:flex;
+    align-self: center;
+    color: honeydew;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#text-area{
+    height: 10vh;
+}
+#submit{
+    width:200px;
+    align-self: center;
+}
+#footer-section-tow{
+    display: flex;
+    order:2;
+    
+}
+#footer-section-tow div{
+    display: flex;
+    flex-direction: row;
+}
+
+section div#big-father-div{
+    background-color:whitesmoke;
+    height: 100vh;
+    box-shadow:5px 5px 5px 5px grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content:space-around ;
+    align-items: stretch;
+    color: blanchedalmond;
+}
+section div#big-father-div div{
+    background-color: grey;
+    border:2px solid black;
+    width:45vh;
+    height: 30vh;
+    margin: 0 5px;
+    display: flex;
+  
+}
+#diva{
+    order:1;
+}
+#divb{
+    order:2;
+    flex-grow: 2;
+    flex-basis: 90vh;
+
+}
+#divc{
+    order:3;
+    flex-shrink:5 ;   
+   flex-basis: 20vh;
+
+   
+}
+#divd{
+    order:4; 
+flex-shrink:5 ;   
+   flex-basis: 25vh;
+  
+}
+
+#dive{
+    order:6;
+    flex-grow: 2;
+    flex-basis: 70vh;
+
+   
+  
+}
+#divf{
+    order:7;
+    flex-grow: 2;
+    flex-basis: 60vh;
+
+    
+}
+#divg{
+    order:8;
+    flex-shrink:5 ;   
+    flex-basis: 20vh;
+ 
+}
