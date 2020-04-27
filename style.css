@@ -127,7 +127,7 @@ margin-left: 10px;
     height: 20px;
 }
 
-#div1 {
+.div1 {
    
     display: flex;
     flex-flow: row nowrap;
@@ -135,15 +135,15 @@ margin-left: 10px;
     justify-content: space-around;
 }
 
-#div1-logo {
+.div1-logo {
     margin: 10px;
 }
 
-#div1-title {
+.div1-title {
     margin: 10px;
 }
 
-#div1-p {
+.div1-p {
     width: 30%;
     height:auto ;
     margin: 10px;
