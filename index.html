@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Name - Homepage</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -32,12 +33,12 @@
     </nav>
   </header>
   <main>
-    <section>
+    <section class="myNameSection">
       <h1>My Name</h1>
       <h2>My Title</h2>
       <h3>Where I am From</h3>
     </section>
-    <section>
+    <section class="aboutMeSection">
       <div>
         <h2>
           About me
@@ -53,12 +54,12 @@
         </p>
       </div>
     </section>
-    <section>
-      <h2>My Skills</h2>
+    <section class="mySkills">
+      <h2 class="sectionTitle">My Skills</h2>
       <div>
         <ul>
           <li>
-            <div>
+            <div class="mySkillsContentBox">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -67,7 +68,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="mySkillsContentBox">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -76,7 +77,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="mySkillsContentBox">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -85,7 +86,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="mySkillsContentBox">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -94,7 +95,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="mySkillsContentBox">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -103,7 +104,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="mySkillsContentBox">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -118,9 +119,9 @@
       <!-- Put your divs here as required for that section grid style-->
     </section>
     <section>
-      <h2>My Experience</h2>
-      <div>
-        <div>
+      <h2 class="sectionTitle">My Experience</h2>
+      <div class="myExperienceContainer">
+        <div class="myExperienceBox">
           <div>
             <img src="./imgs/code.png" alt="icon">
           </div>
@@ -136,7 +137,7 @@
               ab? Amet unde molestiae sit.</p>
           </div>
         </div>
-        <div>
+        <div class="myExperienceBox">
           <div>
             <img src="./imgs/code.png" alt="icon">
           </div>
@@ -152,7 +153,7 @@
               ab? Amet unde molestiae sit.</p>
           </div>
         </div>
-        <div>
+        <div class="myExperienceBox">
           <div>
             <img src="./imgs/code.png" alt="icon">
           </div>
@@ -173,20 +174,28 @@
   </main>
   <footer>
     <section>
-      <h2>Get in Touch</h2>
+      <h2 class="footerTitle">Get in Touch</h2>
       <form>
         <input type="text">
         <input type="text">
-        <textarea></textarea>
+        <textarea rows="10"></textarea>
         <input type="submit">
       </form>
     </section>
     <section>
-      <div>
-        <img src="./imgs/social.png" alt="social">
-        <img src="./imgs/social.png" alt="social">
-        <img src="./imgs/social.png" alt="social">
-        <img src="./imgs/social.png" alt="social">
+      <div class="soicalIconsList">
+        <a href="">
+          <img src="./imgs/social.png" alt="social">
+        </a>
+        <a href="">
+          <img src="./imgs/social.png" alt="social">
+        </a>
+        <a href="">
+          <img src="./imgs/social.png" alt="social">
+        </a>
+        <a href="">
+          <img src="./imgs/social.png" alt="social">
+        </a>
       </div>
     </section>
   </footer>
