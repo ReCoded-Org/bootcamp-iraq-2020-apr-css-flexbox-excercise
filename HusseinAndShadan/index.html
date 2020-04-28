@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Name - Homepage</title>
+  <link rel="stylesheet"  href="style.css">
 </head>
-
 <body>
   <header>
     <nav>
-      <div>
+      <div class="logo">
         <a href="#">
           <img src="./imgs/logo.png" alt="logo">
         </a>
       </div>
-      <ul>
+      <ul class="nav-links">
         <li>
           <a href="#">About</a>
         </li>
@@ -32,13 +31,13 @@
     </nav>
   </header>
   <main>
-    <section>
+    <section class="first">
       <h1>My Name</h1>
       <h2>My Title</h2>
       <h3>Where I am From</h3>
     </section>
-    <section>
-      <div>
+    <section class="second">
+      <div class="text">
         <h2>
           About me
         </h2>
@@ -53,12 +52,12 @@
         </p>
       </div>
     </section>
-    <section>
+    <section class="third">
       <h2>My Skills</h2>
-      <div>
-        <ul>
+      <div class="container">
+        <ul class="skills">
           <li>
-            <div>
+            <div class="box">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -67,7 +66,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="box">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -76,7 +75,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="box">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -85,7 +84,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="box">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -94,7 +93,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="box">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -103,7 +102,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="box">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -117,18 +116,41 @@
     <section>
       <!-- Put your divs here as required for that section grid style-->
     </section>
-    <section>
+    <section class="added-part">
+      <div class="div-part">
+          <div class="column">
+            <div class="a letter">a</div>
+            <div class="c letter">c</div>
+            <div class="d letter">d</div>
+          </div>
+          <div class="column be">
+            <div class="b letter">b</div>
+            <div class="e letter">e</div>
+          </div>
+          <div class="column">
+            <div class="f letter">f</div>
+          </div>    
+          <div class="column">
+            <div class="g letter">g</div>
+            <div class="h letter">h</div>
+          </div>
+        	
+       
+       
+      </div>
+    </section>
+    <section class="fourth">
       <h2>My Experience</h2>
-      <div>
-        <div>
-          <div>
+      <div class="fourth-container">
+        <div class="flex-div">
+          <div class="f1">
             <img src="./imgs/code.png" alt="icon">
           </div>
-          <div>
+          <div class="f2"> 
             <h3>Job Title</h3>
             <h3>Company Name</h3>
           </div>
-          <div>
+          <div class="f3">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dolores quas officiis debitis natus
               dicta animi, doloremque harum asperiores nostrum voluptatum delectus, aliquam iste nesciunt porro,
               provident aliquid impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam obcaecati ea
@@ -136,15 +158,15 @@
               ab? Amet unde molestiae sit.</p>
           </div>
         </div>
-        <div>
-          <div>
+        <div class="flex-div">
+          <div class="f1">
             <img src="./imgs/code.png" alt="icon">
           </div>
-          <div>
+          <div class="f2">
             <h3>Job Title</h3>
             <h3>Company Name</h3>
           </div>
-          <div>
+          <div class="f3">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dolores quas officiis debitis natus
               dicta animi, doloremque harum asperiores nostrum voluptatum delectus, aliquam iste nesciunt porro,
               provident aliquid impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam obcaecati ea
@@ -152,15 +174,15 @@
               ab? Amet unde molestiae sit.</p>
           </div>
         </div>
-        <div>
-          <div>
+        <div class="flex-div">
+          <div class="f1">
             <img src="./imgs/code.png" alt="icon">
           </div>
-          <div>
+          <div class="f2">
             <h3>Job Title</h3>
             <h3>Company Name</h3>
           </div>
-          <div>
+          <div class="f3">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dolores quas officiis debitis natus
               dicta animi, doloremque harum asperiores nostrum voluptatum delectus, aliquam iste nesciunt porro,
               provident aliquid impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam obcaecati ea
@@ -172,24 +194,25 @@
     </section>
   </main>
   <footer>
-    <section>
+    <div class="fifth">
+    <section >
       <h2>Get in Touch</h2>
-      <form>
-        <input type="text">
-        <input type="text">
-        <textarea></textarea>
-        <input type="submit">
+      <form class="input">
+        <input type="text" placeholder="Enter your name">
+        <input type="text" placeholder="Enter your E-mail">
+        <textarea placeholder="Your message" ></textarea>
+        <input type="submit" value="submit" >
       </form>
     </section>
     <section>
-      <div>
+      <div class="social">
         <img src="./imgs/social.png" alt="social">
         <img src="./imgs/social.png" alt="social">
         <img src="./imgs/social.png" alt="social">
         <img src="./imgs/social.png" alt="social">
       </div>
     </section>
+  </div>
   </footer>
 </body>
-
 </html>
