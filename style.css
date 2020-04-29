@@ -1,0 +1,353 @@
+*
+{
+    font-family: 'Courier New', Courier, monospace1;
+}
+
+header{
+
+height: 20vh;
+}
+
+nav{
+    display: flex;
+}
+.logo
+{
+    height: 100px;
+    width: 100px;
+    margin-left: 16px;
+  margin-top: 5px;
+}
+.info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    margin: 0 3rem;
+  
+  }
+
+
+ .info ul
+ {
+    display: flex;
+   
+ }
+.info li{
+margin: 10px;
+list-style: none;
+font-size: larger;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+
+
+}
+
+/* header end */
+
+
+
+
+.personalinfo
+{
+    margin: 40px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: grey;
+    font-size: x-large;
+}
+
+/* first section end */
+.about{
+background-color: gray;
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 500px;
+align-items: center;
+justify-content: space-around;
+}
+
+
+.about-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    overflow: visible;
+    background-color: darkgrey;  
+    padding: 50px;
+    color: white;
+
+}
+
+.about-box h2 {
+    font-size: 3em;}
+
+/* second section's end*/
+
+img{
+    height: 50px;
+    width: 50px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+width: 100%;
+margin-bottom: 200px;
+}
+.card{
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+}
+.skills-box ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;   
+  }
+
+.skills-box li{
+    text-align: center;
+    padding: 2px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.skills h2{
+    font-size: 3em;
+}
+/* third section end*/
+
+
+
+/* flex boxed*/
+.flex-container
+{ 
+
+    background-color: antiquewhite;
+    height: 60vh;
+    margin: 40px;
+    width: 100%;
+    height: 80vh;
+    box-shadow: 12px 0 15px -4px #888888, -12px 0 8px -4px #888888;
+
+}
+#flexes{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    width: 100%;
+    
+}
+#a{
+
+height: 200px;
+width: 250px;
+}
+
+#b{
+    height: 200px;
+    width: 400px;
+
+}
+
+
+#c , #d
+{
+    height: 100px;
+    width: 100px;
+
+}
+
+#e{
+    height: 200px;
+width: 550px;
+}
+#f
+{
+height: 95%;
+width: 150px;
+}
+
+#g{
+height: 60%;
+width: 100px;
+}
+#h{
+height: 30%;
+width: 100px;
+
+}
+
+#a, #b, #c, #d, #e, #f ,#g ,#h
+{
+    background-color: lavender;
+    margin: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+
+.first{
+    display: flex;
+    flex-direction: column;
+}
+
+#g1
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.first #col2
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#g2
+{
+    display: flex;
+    flex-direction: row;
+}
+#g2-1{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .second
+    {display: flex;
+    flex-direction: row;}
+
+/* flex-basis was not working*/
+
+
+/* flex boxes end.*/
+
+.experience{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    
+    }
+
+    .content-box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+      }
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    text-align: center;}
+
+    .content div > img
+     {
+         margin-left: 150px;
+        height: 50px;
+        width: 50px;
+    
+    }
+    
+    .content div > h3{
+        height: auto;
+        width: 500px;
+        margin-top: -5px;
+    }
+    .content div > p{
+        height: auto;
+        width: 600px;
+        font-weight: bolder;
+        margin-top: -5px;
+
+    }
+
+
+/* end of fourth section*/
+
+footer{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+}
+
+
+.contactinfo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    justify-content: space-evenly;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    padding: 10px;
+    margin-top:20px ;
+}
+form > input
+{
+    height: 4vh;
+    width: 50vw;
+}
+
+input[type="submit"]
+{
+    background-color: darkgrey;
+    font-size: 0px;
+}
+
+textarea{
+    height: 10vh;
+    width: 50vw;
+}
+.contactinfo h2{
+    color: white;
+}
+
+
+.contactsocial
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    justify-content: space-evenly;
+}
+
+.socialimg{
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+}

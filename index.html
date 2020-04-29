@@ -3,8 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Name - Homepage</title>
+  <title>Yara - Homepage</title>
+
 </head>
 
 <body>
@@ -12,10 +14,10 @@
     <nav>
       <div>
         <a href="#">
-          <img src="./imgs/logo.png" alt="logo">
+          <img src="./imgs/logo.png" alt="logo" class="logo">
         </a>
       </div>
-      <ul>
+      <ul class="info">
         <li>
           <a href="#">About</a>
         </li>
@@ -32,13 +34,13 @@
     </nav>
   </header>
   <main>
-    <section>
-      <h1>My Name</h1>
-      <h2>My Title</h2>
-      <h3>Where I am From</h3>
+    <section  class="personalinfo">
+      <h1>Yara</h1>
+      <h2>Student</h2>
+      <h3>Baghdad, Iraq</h3>
     </section>
-    <section>
-      <div>
+    <section class="about">
+      <div class="about-box">
         <h2>
           About me
         </h2>
@@ -53,12 +55,12 @@
         </p>
       </div>
     </section>
-    <section>
+    <section class="skills">
       <h2>My Skills</h2>
-      <div>
+      <div class="skills-box">
         <ul>
           <li>
-            <div>
+            <div class="card">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -67,7 +69,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="card">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -76,7 +78,16 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="card">
+              <div ><img src="./imgs/skill.png" alt="icon"></div>
+              <h3>Skill Name</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
+                ipsum voluptatibus voluptatum incidunt quas cum numquam hic, deserunt voluptatem modi eum quisquam
+                dolore in esse.</p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -85,7 +96,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="card">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -94,16 +105,7 @@
             </div>
           </li>
           <li>
-            <div>
-              <div><img src="./imgs/skill.png" alt="icon"></div>
-              <h3>Skill Name</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
-                ipsum voluptatibus voluptatum incidunt quas cum numquam hic, deserunt voluptatem modi eum quisquam
-                dolore in esse.</p>
-            </div>
-          </li>
-          <li>
-            <div>
+            <div class="card">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -114,13 +116,37 @@
         </ul>
       </div>
     </section>
-    <section>
+    <section class="flex-container">
       <!-- Put your divs here as required for that section grid style-->
+      <div id="flexes">
+        <div class="first">
+          <div id="g1">      
+            <div id="a">A</div>
+          <div id="b">B</div>
+        </div>
+  <div  id="g2">
+    <div id="g2-1"> 
+      <div id="c">C</div>
+    <div id="d">D</div>
+  </div>
+        <div id="e">E</div>
+  </div>
+      </div>
+        <div class="second">  
+            <div>
+                <div id="f">F</div>
+            </div>
+            <div>
+              <div id="g">G</div>
+              <div id="h">H</div>
+            </div>  
+      </div>
+      </div>
     </section>
-    <section>
+    <section class="experience">
       <h2>My Experience</h2>
-      <div>
-        <div>
+      <div class="content-box">
+        <div class="content">
           <div>
             <img src="./imgs/code.png" alt="icon">
           </div>
@@ -136,7 +162,7 @@
               ab? Amet unde molestiae sit.</p>
           </div>
         </div>
-        <div>
+        <div class="content">
           <div>
             <img src="./imgs/code.png" alt="icon">
           </div>
@@ -152,7 +178,7 @@
               ab? Amet unde molestiae sit.</p>
           </div>
         </div>
-        <div>
+        <div class="content">
           <div>
             <img src="./imgs/code.png" alt="icon">
           </div>
@@ -172,7 +198,7 @@
     </section>
   </main>
   <footer>
-    <section>
+    <section class="contactinfo">
       <h2>Get in Touch</h2>
       <form>
         <input type="text">
@@ -181,12 +207,12 @@
         <input type="submit">
       </form>
     </section>
-    <section>
-      <div>
-        <img src="./imgs/social.png" alt="social">
-        <img src="./imgs/social.png" alt="social">
-        <img src="./imgs/social.png" alt="social">
-        <img src="./imgs/social.png" alt="social">
+    <section class="contactsocial">
+      <div class="socialimg">
+        <img src="./imgs/social1.png" alt="social">
+        <img src="./imgs/social2.webp" alt="social">
+        <img src="./imgs/social3.webp" alt="social">
+        <img src="./imgs/social4.webp" alt="social">
       </div>
     </section>
   </footer>
