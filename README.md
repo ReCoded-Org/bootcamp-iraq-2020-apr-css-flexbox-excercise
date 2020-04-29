@@ -1,1 +1,1 @@
-# bootcamp-iraq-2020-apr-css-flexbox-excercise
+# bootcamp-iraq-2020-apr-css-flexbox-exercise
