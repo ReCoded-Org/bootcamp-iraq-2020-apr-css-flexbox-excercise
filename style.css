@@ -49,6 +49,7 @@ body {
  color: rgb(138, 137, 137);
  
 }
+/* ----------------------------------- About my---------------------------------*/
 .content2{ 
  height: 100vh;
  background-color:rgb(138, 137, 137);
@@ -78,24 +79,30 @@ body {
 .text p{
   text-align: justify;
 }
+/* -----------------------------------my skill---------------------------------*/
 .content3{
-  
   background-color: rgb(245, 239, 239);
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   color: rgb(138, 137, 137);
 }
 .content3 h2{
    align-items: center;
-   margin-bottom: 15px;
+   margin-bottom: 18px;
    margin-left: 42%;
-  font-size: 3rem;
+   font-size: 3rem;
 
+}
+.col{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  
 }
 
 .skill-logo{
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   list-style: none;
 }
 .skill-sec{
@@ -103,33 +110,214 @@ body {
   flex-direction: row;
   flex-flow: wrap;
   
-  
 }
 .skill-box{
-   
-   width: 300px;
-   height: 300px;
-  padding: 10px;
-  margin-top: 20px;
-  
+  margin:90px ;
+  width: 260px;
+  height: 300px;
+  padding: 10px; 
   text-align: center;
-  
+  border: 2 solid rgb(87, 85, 85);
 }
-.skill-box ul {
-  display: flex;
-  flex-direction: row;
-  border: 2 solid rgb(138, 137, 137);
+ li .skill-box{
+  border: 2 solid rgb(87, 85, 85);
 }
+
 .skill-box h3{
   font-size: 2rem;
   padding:12px 0;
 }
 .skill-box p{
   text-align: justify;
-  font-size:12px;
+  font-size:17px;
+}
+/* ----------------------------------- grid style ---------------------------------*/
+.flex{
+  display: flex;
+  box-sizing: border-box;
+}
+.row {
+	flex-flow: row wrap;
+}
+.col {
+	flex-flow: column wrap;
+}
+.element {
+	min-width: 100px;
 }
 
+.content {
+	flex: 1;
+}
+.structure {
+	height: 500px;
+}
 
+.structure-1 {
+	flex: 1 percentage(5/9);
+}
 
+.a {
+	flex: 1 percentage(2/5);
+}
 
+.b {
+	flex: 1 percentage(3/5);
+}
+.structure-1-2-1 {
+	flex: 1 percentage(1/5);
+}
 
+.c,
+.d {
+	flex: 1 percentage(1/2);
+}
+
+.e {
+	flex: 1 percentage(4/5);
+}
+
+.structure-2 {
+	flex: 1 percentage(4/9);
+}
+
+.f {
+	flex: 1 percentage(2/4);
+}
+
+.structure-2-2 {
+	flex: 1 percentage(2/4);
+}
+
+.g {
+	flex: 1 percentage(3/4);
+}
+
+.h {
+	flex: 1 percentage(1/4);
+}
+@media (max-width: 768px) {
+	.structure-1,
+	.structure-2,
+	.f,
+	.structure-2-2{
+		flex: 1 100%;
+		min-height: 480px;
+	}
+}
+
+/* --------------------------- my exeperince --------------------------------------*/
+.content4{
+  background-color: rgb(245, 239, 239);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: rgb(138, 137, 137);
+
+}
+.content4 h2{
+  align-items: center;
+  margin-bottom: 60px;
+  margin-left: 37%;
+  font-size: 3rem;
+
+}
+.code-logo{
+  width: 40px;
+  height: 40px;
+  list-style: none;
+  margin-left: 60px;
+  margin-top: 50%;
+  
+}
+
+.exper-box{
+  display: flex;
+  flex-direction: row;
+   width: 100%;
+   height: 300px;
+  
+}
+.exper-box h3{
+  position: relative;
+  text-align: center;
+  align-content: center;
+  width:8em;
+  margin-top: 10%;
+  font-size:40px;
+}
+.title h3{
+  position: relative;
+  align-items: right;
+  margin-left: 170px;
+}
+.exper-box p{
+  font-size:17px;
+  float: right;
+  width: 60%;
+  padding: 0 0;
+  text-align: justify;
+  margin-right: 15px;
+  margin-top: 5%;
+  
+  
+}
+footer{
+  background-color: rgb(138, 137, 137);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: rgb(245, 239, 239);
+}
+footer h2{
+  align-items: center;
+  margin-bottom: 70px;
+  margin-left: 40%;
+  font-size: 3.3rem;
+  letter-spacing: 2px;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+form{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.contact form{
+	position: relative;
+	z-index: 1000;
+}
+.contact .input-control{
+  height: 50px;
+  width: 35rem;
+  margin-bottom: 40px;
+  background:rgb(245, 239, 239);
+  color: #fff;
+  font-size: 1.25rem;
+
+}
+.contact .textarea{
+  min-height: 170px;
+  width: 35rem;
+  margin-bottom: 40px;
+}
+
+.icon{
+  width: 80px;
+  height: 80px;
+  margin-top: 60px;
+  margin-left:70px;
+  cursor: pointer;
+  
+}
+.icon:hover{
+  width:90px ;
+  height: 90px;
+}
+.social-icons{
+  text-align: center;
+}
