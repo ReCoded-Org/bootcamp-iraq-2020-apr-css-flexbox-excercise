@@ -1,0 +1,158 @@
+/* common classess */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+.sectionTitle{
+    padding: 50px 0;
+    text-align: center;
+    font-size: 40px;
+    color: #c5bebe;
+}
+
+/* the main style */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+nav img{
+    width: 100px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+nav ul li:nth-of-type(1){ 
+    order: 4; 
+}
+
+.myNameSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    padding: 40px 0 100px;
+    color: #7e7e7e;
+
+}
+
+.aboutMeSection{
+    padding: 40px;
+    background-color: #808080;
+}
+
+.aboutMeSection div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: #575757;
+    color: #fff;
+}
+
+.mySkills ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.mySkills ul li{
+    width: 33.3333333%;
+}
+
+.mySkillsContentBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #7e7e7e;
+    color: #7e7e7e;
+}
+
+.mySkillsContentBox img{
+    width: 50px;
+    height: 50px;
+} 
+
+.mySkillsContentBox h3{
+    padding: 10px;
+}
+
+.myExperienceBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    color: #7e7e7e;
+}
+
+.myExperienceBox img{
+    width: 50px;
+    height: 50px;
+}
+
+.myExperienceBox p{
+    width: 300px;
+}
+
+footer{
+    background-color: #575757;
+    color: #fff;
+}
+
+.footerTitle{
+    padding: 50px 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 75%;
+    height: 280px;
+}
+
+input[type="submit"]{
+    padding: 10px 0;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.soicalIconsList{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    margin: auto;
+}
+
+.soicalIconsList img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
