@@ -14,8 +14,8 @@ body {
 }
 
 .logo-nav{
- width: 90px;
- height: 90px;
+ width: 80px;
+ height: 80px;
  margin-left: 15px;
  margin-top: 10px;
 
@@ -97,18 +97,19 @@ body {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
-  
 }
 
 .skill-logo{
   width: 40px;
   height: 40px;
   list-style: none;
+
 }
 .skill-sec{
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
+  
   
 }
 .skill-box{
@@ -119,7 +120,7 @@ body {
   text-align: center;
   border: 2 solid rgb(87, 85, 85);
 }
- li .skill-box{
+.skill-sec li .skill-box{
   border: 2 solid rgb(87, 85, 85);
 }
 
@@ -132,78 +133,33 @@ body {
   font-size:17px;
 }
 /* ----------------------------------- grid style ---------------------------------*/
-.flex{
-  display: flex;
-  box-sizing: border-box;
-}
-.row {
-	flex-flow: row wrap;
-}
-.col {
-	flex-flow: column wrap;
-}
-.element {
-	min-width: 100px;
-}
-
-.content {
-	flex: 1;
-}
-.structure {
-	height: 500px;
+.letter1 { grid-area: A; }
+.letter2 { grid-area: B; }
+.letter3 { grid-area: C; }
+.letter4 { grid-area: D; }
+.letter5 { grid-area: E; }
+.letter6 { grid-area: F; }
+.letter7 { grid-area: G; }  
+.letter8 { grid-area: H; }
+.grid-content {
+  display: grid;
+  grid-template:
+    'A A B B B F F G G '
+    'C E E E E F F G G'
+    'D E E E E F F H H';
+  grid-gap: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
 }
 
-.structure-1 {
-	flex: 1 percentage(5/9);
+.grid-content > div {
+  background-color: rgba(197, 193, 193, 0.8);
+  padding: 50px 0;
+  font-size: 30px;
+  color: white;
 }
-
-.a {
-	flex: 1 percentage(2/5);
-}
-
-.b {
-	flex: 1 percentage(3/5);
-}
-.structure-1-2-1 {
-	flex: 1 percentage(1/5);
-}
-
-.c,
-.d {
-	flex: 1 percentage(1/2);
-}
-
-.e {
-	flex: 1 percentage(4/5);
-}
-
-.structure-2 {
-	flex: 1 percentage(4/9);
-}
-
-.f {
-	flex: 1 percentage(2/4);
-}
-
-.structure-2-2 {
-	flex: 1 percentage(2/4);
-}
-
-.g {
-	flex: 1 percentage(3/4);
-}
-
-.h {
-	flex: 1 percentage(1/4);
-}
-@media (max-width: 768px) {
-	.structure-1,
-	.structure-2,
-	.f,
-	.structure-2-2{
-		flex: 1 100%;
-		min-height: 480px;
-	}
+.letter1{
+  padding: 30px 30px;
 }
 
 /* --------------------------- my exeperince --------------------------------------*/
@@ -304,6 +260,7 @@ form{
   min-height: 170px;
   width: 35rem;
   margin-bottom: 40px;
+  background:rgb(245, 239, 239);
 }
 
 .icon{
