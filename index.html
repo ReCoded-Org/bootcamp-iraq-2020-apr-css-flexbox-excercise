@@ -11,7 +11,7 @@
 <body>
   <header>
     <nav>
-      <div>
+      <div class="logo">
         <a href="#">
           <img src="./imgs/logo.png" alt="logo">
         </a>
@@ -33,14 +33,14 @@
     </nav>
   </header>
   <main>
-    <section class="myNameSection">
+    <section id="name">
       <h1>My Name</h1>
       <h2>My Title</h2>
       <h3>Where I am From</h3>
     </section>
-    <section class="aboutMeSection">
+    <section id="about">
       <div>
-        <h2>
+        <h2 class="section-title">
           About me
         </h2>
         <p>
@@ -54,12 +54,12 @@
         </p>
       </div>
     </section>
-    <section class="mySkills">
-      <h2 class="sectionTitle">My Skills</h2>
-      <div>
+    <section id="skills">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skill-cards-container">
         <ul>
           <li>
-            <div class="mySkillsContentBox">
+            <div class="skill-card">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -68,7 +68,7 @@
             </div>
           </li>
           <li>
-            <div class="mySkillsContentBox">
+            <div class="skill-card">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -77,7 +77,7 @@
             </div>
           </li>
           <li>
-            <div class="mySkillsContentBox">
+            <div class="skill-card">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -86,7 +86,7 @@
             </div>
           </li>
           <li>
-            <div class="mySkillsContentBox">
+            <div class="skill-card">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -95,7 +95,7 @@
             </div>
           </li>
           <li>
-            <div class="mySkillsContentBox">
+            <div class="skill-card">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -104,7 +104,7 @@
             </div>
           </li>
           <li>
-            <div class="mySkillsContentBox">
+            <div class="skill-card">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -115,21 +115,21 @@
         </ul>
       </div>
     </section>
-    <section>
+    <section id="portfolio">
       <!-- Put your divs here as required for that section grid style-->
     </section>
-    <section>
-      <h2 class="sectionTitle">My Experience</h2>
-      <div class="myExperienceContainer">
-        <div class="myExperienceBox">
-          <div>
+    <section id="experience">
+      <h2 class="section-title">My Experience</h2>
+      <div class="experience-cards-container">
+        <div class="experience-card">
+          <div class="icon">
             <img src="./imgs/code.png" alt="icon">
           </div>
-          <div>
+          <div class="location">
             <h3>Job Title</h3>
             <h3>Company Name</h3>
           </div>
-          <div>
+          <div class="summary">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dolores quas officiis debitis natus
               dicta animi, doloremque harum asperiores nostrum voluptatum delectus, aliquam iste nesciunt porro,
               provident aliquid impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam obcaecati ea
@@ -137,15 +137,15 @@
               ab? Amet unde molestiae sit.</p>
           </div>
         </div>
-        <div class="myExperienceBox">
-          <div>
+        <div class="experience-card">
+          <div class="icon">
             <img src="./imgs/code.png" alt="icon">
           </div>
-          <div>
+          <div class="location">
             <h3>Job Title</h3>
             <h3>Company Name</h3>
           </div>
-          <div>
+          <div class="summary">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dolores quas officiis debitis natus
               dicta animi, doloremque harum asperiores nostrum voluptatum delectus, aliquam iste nesciunt porro,
               provident aliquid impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam obcaecati ea
@@ -153,15 +153,15 @@
               ab? Amet unde molestiae sit.</p>
           </div>
         </div>
-        <div class="myExperienceBox">
-          <div>
+        <div class="experience-card">
+          <div class="icon">
             <img src="./imgs/code.png" alt="icon">
           </div>
-          <div>
+          <div class="location">
             <h3>Job Title</h3>
             <h3>Company Name</h3>
           </div>
-          <div>
+          <div class="summary">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dolores quas officiis debitis natus
               dicta animi, doloremque harum asperiores nostrum voluptatum delectus, aliquam iste nesciunt porro,
               provident aliquid impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam obcaecati ea
@@ -174,7 +174,7 @@
   </main>
   <footer>
     <section>
-      <h2 class="footerTitle">Get in Touch</h2>
+      <h2 class="section-title">Get in Touch</h2>
       <form>
         <input type="text">
         <input type="text">
@@ -183,7 +183,7 @@
       </form>
     </section>
     <section>
-      <div class="soicalIconsList">
+      <div class="social-icons-container">
         <a href="">
           <img src="./imgs/social.png" alt="social">
         </a>
