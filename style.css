@@ -202,3 +202,88 @@ input[type="submit"] {
   display: inline-block;
   width: 30px;
 }
+
+#portfolio {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 400px;
+  text-align: left;
+}
+
+.a,
+.b,
+.c,
+.d,
+.e,
+.f,
+.g,
+.h {
+  background-color: var(--gray);
+  color: var(--off-white);
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+#portfolio > div {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#portfolio .col {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#portfolio .col-1 {
+  width: 50%;
+  height: 100%;
+}
+
+#portfolio .col-2 {
+  width: 25%;
+  height: 100%;
+}
+
+#portfolio .col-3 {
+  width: 25%;
+  height: 100%;
+}
+
+.a-b-row {
+  flex: 1;
+}
+
+.c-d-e-row {
+  flex: 3;
+}
+
+.a,
+.b {
+  flex: 1;
+}
+
+.c,
+.d {
+  height: 50%;
+}
+
+.e {
+  flex: 2;
+}
+
+.f {
+  flex: 1;
+}
+
+.g {
+  flex: 4;
+}
+.h {
+  flex: 1;
+}
