@@ -1,0 +1,151 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+  }
+  .container{
+    display:flex;
+    flex-flow:flex-direction;
+  }
+  .container img{
+    width:40px;
+    height: 40px;
+margin-left: 10px;
+  }
+  .container >ul>li>a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #7B7973;
+  }
+   .ul-child{
+    display: flex;
+    justify-content:flex-end;
+    margin-left:auto;
+    
+  
+  }
+  .ul-child li{
+    text-decoration:none;
+    margin:10px;
+    list-style-type: none;
+    
+  }
+  .li1{
+    order:3;
+  }
+  .li2{
+    order:1;
+  }
+  .li3{
+  order:2;
+  }
+  
+  .info{
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+    flex-direction:column;
+    margin-bottom:50px;
+    color: #7B7973;
+  }
+  .about{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    background-color:#807D77;
+    color:white;
+    height:300px;
+     align-items:center;
+  }
+  
+  .about div{
+    width:50%;
+    flex-direction:column;
+    background-color:#7B7973;
+    padding: 10px;
+  }
+  .about div h2 {
+    color: white;
+  }
+  .aboutdiv p{
+  padding: 20px ;
+  }
+  h2{
+    text-align:center;
+    color: #7B7973;
+  }
+ .divparent{
+   display: flex;
+   background-color: darkcyan;
+ }
+  /*end skills*/
+  /*start experience*/
+  .ex h2{
+    margin: 10px;
+  }
+  .experienceparent{
+  display: flex;
+justify-content: center;
+margin: auto;
+  
+  }
+.imgex{
+  width: 200px;
+}
+.imgex img{
+width: 50px;
+height: 50px;
+} 
+.textex{
+  width: 400px;
+  
+}
+.textex h3{
+  color: #807D77;
+}
+.parghex{
+width: 50%;
+padding: 10px;
+}
+  /*end experience*/
+  /*start get in touch*/
+  .form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(78, 75, 75);
+
+  }
+  .form > input[type=text]{
+    margin: 20px;
+    height: 30px;
+    width: 400px;
+    border: 0;
+    
+  }
+  .form textarea{
+    margin: 20px;
+    height: 70px;
+    width: 400px;
+    border: 0;
+
+  }
+  .form > input[type=submit]{
+    width: 100px;
+    color: white;
+    background-color: teal;
+  }
+
+  /*end get in touch*/
+/*start media*/
+  .media div{
+display: flex;
+justify-content: center;
+background-color: rgb(78, 75, 75);
+  }
+  .media div img{
+    padding: 20px;
+  }
+  /*end media*/
