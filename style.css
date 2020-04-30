@@ -203,6 +203,8 @@ input[type="submit"] {
   width: 30px;
 }
 
+/* complex grid styling begins */
+
 #portfolio {
   display: flex;
   width: 100%;
@@ -221,69 +223,75 @@ input[type="submit"] {
 .h {
   background-color: var(--gray);
   color: var(--off-white);
-  margin-top: 10px;
   padding: 10px;
+
+  /* this is to get rid of the margin problem since we have flexbox, 
+  margins won't collapse and we have to go to each element and give it the margin required. 
+  Since our margins are simple, the problem was substituted 
+  by a border around each element of 5 pixel in total will do a 10 pixel margin look a like.
+  the border should have the same color of the background.
+  it's a trick ;) */
+  border: 5px solid var(--off-white);
 }
 
-.flex {
+.flex-row {
   display: flex;
 }
 
-#portfolio > div {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-#portfolio .col {
+.flex-col {
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 
 #portfolio .col-1 {
-  width: 50%;
-  height: 100%;
+  flex: 2; /* since column 1 is twice as wide as col 2 and col 3, it will take 2/4 (half) of the total width */
 }
 
 #portfolio .col-2 {
-  width: 25%;
-  height: 100%;
+  flex: 1; /* this column with take 1/4 of the total width */
 }
 
 #portfolio .col-3 {
-  width: 25%;
-  height: 100%;
+  flex: 1; /* this too takes 1/4 of the total width */
 }
 
 .a-b-row {
-  flex: 1;
+  flex: 1; /* this row will take 1 third of the col-1 height */
 }
 
 .c-d-e-row {
-  flex: 3;
+  flex: 2; /* this row will take 2 thirds of the col-1 height */
+}
+
+.c-d-row {
+  flex: 1; /* This column will take 1/5 from the c-d-e row */
+}
+
+.e-row {
+  flex: 4; /* This column will take 4/5 from the c-d-e row */
 }
 
 .a,
 .b {
-  flex: 1;
+  flex: 1; /* both have equal width and grow the same amount */
 }
 
 .c,
 .d {
-  height: 50%;
+  flex: 1; /* both have equal height and should each take 1/2 of their column height */
 }
 
 .e {
-  flex: 2;
+  flex: 1; /* should grow to fill the whole column */
 }
 
 .f {
-  flex: 1;
+  flex: 1; /* fill the whole column height */
 }
 
 .g {
-  flex: 4;
+  flex: 4; /* fill 4/5 of its column height */
 }
 .h {
-  flex: 1;
+  flex: 1; /* fill 1/5 of its column height */
 }
