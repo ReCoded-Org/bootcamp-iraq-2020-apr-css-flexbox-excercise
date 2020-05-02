@@ -1,0 +1,271 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,500;1,600;1,700&display=swap");
+html {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Variables */
+:root {
+  /* Colors */
+  --off-white: #fcfcfc;
+  --dark-gray: #7c7c7c;
+  --gray: #808080;
+  --white: #fff;
+  --black: #000;
+}
+
+/* Common Classes */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--off-white);
+  color: var(--dark-gray);
+  margin: 0 auto;
+  width: 1024px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/* the main style */
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .logo {
+  width: 100px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.menu-icon {
+  display: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: inherit;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav ul a:hover {
+  color: var(--black);
+  text-decoration: underline;
+}
+
+section {
+  min-height: 350px;
+  padding: 20px;
+}
+
+.section-title {
+  padding: 1rem;
+}
+
+#name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about {
+  background-color: var(--gray);
+  color: var(--off-white);
+  display: flex;
+  align-items: center;
+}
+
+#about div {
+  background-color: var(--dark-gray);
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#skills ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+#skills ul li {
+  flex: 0 1 33.33333%;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  border: 2px solid #7e7e7e;
+}
+
+.skill-card img {
+  width: 50px;
+}
+
+.skill-card h3 {
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.experience-card {
+  display: flex;
+  margin: 40px 0;
+  color: #7e7e7e;
+  align-items: center;
+}
+
+.experience-card .icon {
+  width: 50px;
+  flex-shrink: 0;
+}
+
+.icon img {
+  width: 100%;
+}
+
+.experience-card .location {
+  flex-shrink: 0;
+  font-size: 1.5rem;
+  padding: 0 6rem;
+}
+
+.experience-card .summary {
+  text-align: left;
+}
+
+footer {
+  background-color: var(--dark-gray);
+  color: #fff;
+}
+
+footer section {
+  min-height: unset;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 75%;
+  height: 280px;
+}
+
+input[type="submit"] {
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: var(--gray);
+  color: var(--off-white);
+  border: none;
+  cursor: pointer;
+}
+
+.social-icons-container {
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.social-icons-container img {
+  display: inline-block;
+  width: 30px;
+}
+
+#portfolio {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 400px;
+  text-align: left;
+}
+
+@media (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+
+  nav .logo {
+    width: 60px;
+  }
+
+  .menu-icon {
+    display: block;
+    width: 32px;
+  }
+
+  .menu-icon img {
+    width: 100%;
+  }
+
+  #about div {
+    max-width: 80%;
+  }
+
+  #skills ul li {
+    flex: 0 1 50%;
+  }
+
+  .experience-card div {
+    margin: 12px;
+  }
+
+  .experience-card div p {
+    text-align: center;
+  }
+
+  .experience-card {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  #about div {
+    max-width: 100%;
+  }
+
+  #skills ul li {
+    flex: 0 1 100%;
+  }
+}
