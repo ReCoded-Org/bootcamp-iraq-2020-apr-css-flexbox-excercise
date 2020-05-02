@@ -1,0 +1,384 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+main{
+
+    display: flex;
+    flex-direction: column;
+}
+img{
+
+    width: 100%;
+    max-width: 100%;
+}
+.logo-container{
+
+    width: 5%;
+    margin: 25px;
+}
+.nav-bar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rosybrown;
+    min-height: 8vh;
+  
+  
+}
+.nav-ul{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+width: 30%;
+
+margin: 25px;
+
+
+}
+.nav-ul a{
+
+    color: rgb(230, 220, 220);
+    font-size: 17px;
+    transition: font-size 0.5s;
+   
+} .nav-ul a:hover{
+    font-size: 22px;
+        color: rgba(0, 0, 0, 0.322);
+    }
+.intro-section{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.about-wrapper{
+
+  
+    height: 100vh;
+    background-color: sandybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-container{
+    
+        width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(197, 141, 91);
+    
+    padding: 20px;
+}
+.about-container h2{
+        margin: 20px;
+    font-size: 3em;
+    color: rgb(236, 236, 236);
+}
+.about-container p {
+    color: white;
+    
+}
+/* skill section */
+/* skill section */
+/* skill section */
+.skill-logo{
+
+    width: 25px;
+    height: 25px;
+}
+
+.skill-section{
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rosybrown;
+    justify-content: space-around;;
+
+
+}
+.skill-card{
+
+    border: 3px solid rgb(82, 82, 82);
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 8px;
+}
+.skill-ul li {
+display: inline-block;
+flex-basis: 400px;
+
+   
+   margin: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+.skill-ul{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.skill-ul-container{
+
+
+}
+ /* The experience section */
+ /* The experience section */
+ /* The experience section */
+ /* The experience section */
+ .code-img{
+
+    width: 60px;
+    height: 60px;
+ }
+ .exp-section{
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: sandybrown;
+    
+ }
+ .exp-section h2{
+     margin: 30px;
+ }
+ .exp-row{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    border-radius: 50px;
+    border: 4px solid rgb(197, 141, 91);
+    padding: 15px;
+   
+ }
+ .row-container{
+
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    padding: 60px;
+
+ }
+ /* STYLING ROW CHILDREN */
+ /* STYLING ROW CHILDREN */
+ /* STYLING ROW CHILDREN */
+ .code-img-container{
+    width: 30%;
+ 
+ }
+ .row-title{
+     width: 30%;
+   
+
+ }
+ .row-description{
+width: 40%;
+
+text-align: justify;
+ }
+ /* STYLING FOOTER SECTION*/
+ /* STYLING FOOTER SECTION*/
+ /* STYLING FOOTER SECTION*/
+ /* STYLING FOOTER SECTION*/
+
+ .social-logo{
+
+    width: 50px;
+    height: 50px;
+ }
+ .footer{
+
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(110, 110, 110);
+ }
+ .get-in-touch-section{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+   
+    min-height: 30vh;
+    width: 30%;
+ }
+ .get-in-touch-section h2{
+    color: rgb(230, 230, 230);
+ }
+ .contact-form{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+ }
+ .contact-form input[type="text"]{
+
+    width: 400px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(85, 84, 84);
+    text-align: center;
+ }
+ .contact-form textarea{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    border: 3px solid rgb(85, 84, 84);
+    text-align: center;
+    padding:20px;
+ }
+ .contact-form input[type="submit"]{
+    font-size: 1em;
+   display: inline-block;
+   width: 400px;
+   margin: 10px;
+   height: 30px;
+   border-radius: 10px;
+   -webkit-appearance: none;
+   color: white;
+ background-color: rgb(197, 141, 91);
+  text-transform: uppercase;
+  border: 3px solid rgb(85, 84, 84);
+ }  
+ .social-media-section{
+
+    width: 30%;
+ }
+ .social-logo-container{
+
+    display: flex;
+    justify-content: space-around;
+ }
+ /* styling the grid section */
+ /* styling the grid section */
+ /* styling the grid section */
+ /* styling the grid section */
+
+.grid-wrapper{
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(173, 170, 170);
+}
+.grid-container{
+
+    background-color: rgb(199, 199, 199);
+    min-height: 80vh;
+    display: flex;
+    width: 80vw;
+    padding: 20px;
+  
+}
+.a,.b,.c,.d,.e,.f,.g,.h{
+    
+   
+    box-shadow: 0 0 0 10px white; /* All the borders by using the spread properties */
+
+    
+}
+.abcde{
+width: 60%;
+oyalblue;
+}
+.ab{
+   
+    height: 30%;
+    display: flex;
+}
+.a{
+    background-color: rgb(173, 170, 170);
+    flex-grow: 1;
+}
+.b{
+    background-color: rgb(173, 170, 170);    flex-grow: 2;
+}
+.cde{
+
+    height: 70%;
+    display: flex;
+}
+.cd{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.e{
+flex-grow: 4;
+background-color: rgb(173, 170, 170);}
+.c{
+    background-color: rgb(173, 170, 170);    flex-grow: 1;
+}
+.d{
+    background-color: rgb(173, 170, 170);
+    flex-grow: 1;
+}
+.fgh{
+width: 40%;
+display: flex;
+
+}
+.f{
+    background-color: rgb(173, 170, 170);
+    flex-grow: 1;
+}
+.gh{
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.g{
+    background-color: rgb(173, 170, 170);
+    flex-grow: 3;
+}
+.h{
+    flex-grow: 1;
+    background-color: rgb(173, 170, 170);
+}
+/* media query*/
+/* media query*/
+/* media query*/
+
+@media screen and (max-width:900px){
+
+.nav-ul{
+
+    width: 60%;
+}
+}
