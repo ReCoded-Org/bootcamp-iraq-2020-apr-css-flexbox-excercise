@@ -311,7 +311,7 @@ input[type="submit"] {
         width: 100%;
       }
       nav .logo {
-        width: 10%;
+        width: 80px;
       }
       .menu-button div{
         display: block;
@@ -336,7 +336,9 @@ input[type="submit"] {
 }
 
 @media screen and (max-width: 480px) {
-     
+  nav .logo {
+    width: 60px;
+  }
         
     #about div {
         max-width: 90%;
