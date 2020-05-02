@@ -1,1 +1,1 @@
-# Gotcha looking for the code 😈
+# code for responsive
