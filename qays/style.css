@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+header{
+    flex-direction: row;
+    margin: 16px;
+
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+img[alt="logo"]{
+    height: 80px ;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li a{
+ margin-left: 10px; 
+ text-decoration: none;        
+}
+
+.column-about{
+order: 4;                    
+}
+
+.column-skills{
+    order: 2;                    
+}
+.column-projects{
+    order: 1;                    
+}
+
+.column-contact-me{
+    order: 3;                    
+}
+
+.intro{
+  height:50vh;
+  display:flex;
+  align-items:center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.about-me-section{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+height:50vh;
+background-color:lightgray;
+padding:10%;
+}
+.about-me{
+    padding: 5%;
+    width: 70vw;
+  align-items:center;
+  flex-direction: column;
+  justify-content: center;
+ background-color:darkgray;
+}
+h2,h3{
+    text-align:center;
+
+}
+
+.my-skills-section {
+   height:60vh;
+ 
+    
+
+}
+
+.my-skills-section > div {
+    height:100%;
+  
+     
+ 
+ }
+.my-skills-section [alt="icon"]{
+    height:300px
+}
+
+.my-skills-section div ul{
+    height: 100%;
+  display: flex ;
+  list-style: none;
+  flex-wrap: wrap;
+      justify-content:  space-around;
+      align-content: space-around;
+}
+
+.my-skills-section  ul li{
+  width:30%;
+  height:auto;
+  border: 1px solid black;
+
+}
+
+.my-skills-section li > div{
+display: flex;
+flex-direction: column;
+margin: 20px;
+align-items: center;
+text-align: center;
+}
+.my-skills-section li > div > *{
+  
+    margin: auto;
+ 
+    }
+.my-skills-section img[alt="icon"]{
+    width:50px;
+    height: auto;
+}
+
+
+.a ,.b,.c,.d,.e,.f,.g,.h{
+  background-color:gray;
+ flex-grow: 1;
+  margin:10px;
+}
+.abcdefgh{
+  height: 100vh;
+  width:100%;
+  display:flex;
+
+}
+.abcde{
+  flex:4;
+    display:flex;
+      flex-direction: column ;
+
+
+}
+.fgh{
+  flex: 3;
+    display:flex;
+
+}
+.ab{
+  flex:2; 
+  display:flex;
+    justify-content:  space-around;
+
+}
+
+.cde{
+  flex:3;
+    display:flex;
+    justify-content:  space-around;
+
+}
+.cd{
+  flex:1;
+    display:flex;
+          flex-direction: column ;
+              justify-content:  space-around;
+
+}
+.e{
+  flex:3;
+
+}
+
+
+.f{
+  flex:1;
+}
+.gh{
+  flex:1;
+      display:flex;
+          flex-direction: column ;
+
+}
+.g{
+  flex:4;
+
+}
+.h{
+  flex:1;
+
+}
+
+.my-experience{
+  height:70vh;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+   padding:4%;
+
+}
+
+.my-experience-container{
+    display:flex;
+    justify-content: space-around;
+}
+.my-experience-container div{
+   margin: 1rem;
+}
+
+/* .my-experience .img-column{
+flex:2;
+} */
+.my-experience .name-column{
+flex:2;
+}
+
+.my-experience .text-column{
+flex:5;
+}
+
+.my-experience img[alt="icon"]{
+width:70px;
+  
+  }
+  
+
+footer{
+    height:50vh;
+    display:flex;
+  align-items:center;
+  flex-direction: column;
+  justify-content: center;
+ text-align:center;
+ background-color:darkgray;
+ color:white;
+}
+
+footer form{
+    display:flex;
+  align-items:center;
+
+  flex-direction: column;
+    justify-content: space-around;
+ text-align:center;
+ background-color:darkgray;
+ color:white;
+ height: 30vh;
+}
+
+footer form *{
+   width:50vw;
+flex:1;  
+margin: 10px; }
+
+   footer form textarea{
+   flex:3;
+   }
+
+
+   .social-container{
+         display:flex;
+    justify-content: space-between;
+
+   }
+
+   footer img[alt="social"]{
+height:60px;
+   }
+   footer input[type="submit"]{
+background-color: gray;     
+  }
