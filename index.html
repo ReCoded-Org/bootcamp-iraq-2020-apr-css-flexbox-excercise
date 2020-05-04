@@ -5,40 +5,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Name - Homepage</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
   <header>
-    <nav>
+    <nav class="navigation">
       <div>
         <a href="#">
-          <img src="./imgs/logo.png" alt="logo">
+          <img src="./imgs/logo.png" alt="logo" height="70px" width="70px">
         </a>
       </div>
+     
       <ul>
-        <li>
-          <a href="#">About</a>
+        <li class="li">
+           <a href="#">About</a>
         </li>
-        <li>
+        <li class="li">
           <a href="#">Skills</a>
         </li>
-        <li>
+        <li class="li">
           <a href="#">Projects</a>
-        </li>
-        <li>
+         </li>
+         <li class="li">
           <a href="#">Contact Me</a>
-        </li>
+         </li>
       </ul>
+     
     </nav>
   </header>
+
   <main>
-    <section>
-      <h1>My Name</h1>
-      <h2>My Title</h2>
-      <h3>Where I am From</h3>
+    <section class="name" style="margin-bottom: 30px;">
+      <h1 style="font-size: 44px;">DANA & SHIRIN & NEVEN</h1>
+      <h2 >My Title</h2>
+      <h3 >Where I am From</h3>
     </section>
-    <section>
-      <div>
+    <section class="about">
+      <div class="me">
         <h2>
           About me
         </h2>
@@ -54,11 +58,12 @@
       </div>
     </section>
     <section>
-      <h2>My Skills</h2>
-      <div>
-        <ul>
+      <h2 class="name" style="font-size: 44px;">My Skills</h2>
+      
+      
+        <ul class="myskill">
           <li>
-            <div>
+            <div class="box">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -67,7 +72,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="box">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -76,7 +81,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="box">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -85,7 +90,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="box">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -94,7 +99,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="box">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -103,7 +108,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="box">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -112,23 +117,45 @@
             </div>
           </li>
         </ul>
-      </div>
+      
     </section>
-    <section>
+    <section style="background-color: gray;">
       <!-- Put your divs here as required for that section grid style-->
+      <div class="_1div">
+        <div class="_2div">
+            <div class="_1-2">
+                <div class="A">A</div>
+                <div class="B">B</div>
+            </div>
+            <div class="_2-2">
+                <div class="_1-2-2">
+                    <div class="C">C</div>
+                    <div class="D">D</div>
+                </div>
+                <div class="_2-2-2">E</div>
+            </div>
+        </div>
+        <div class="_3div">
+            <div class="_1-3">F</div>
+            <div class="_2-3">
+                <div class="G">G</div>
+                <div class="H">H</div>
+            </div>
+        </div>
+    </div>
     </section>
     <section>
-      <h2>My Experience</h2>
+      <h2 class="name" style="font-size: 44px;">My Experience</h2>
       <div>
-        <div>
-          <div>
+        <div class="job">
+          <div class="injob">
             <img src="./imgs/code.png" alt="icon">
           </div>
-          <div>
+          <div class="injob">
             <h3>Job Title</h3>
             <h3>Company Name</h3>
           </div>
-          <div>
+          <div class="injob">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dolores quas officiis debitis natus
               dicta animi, doloremque harum asperiores nostrum voluptatum delectus, aliquam iste nesciunt porro,
               provident aliquid impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam obcaecati ea
@@ -136,15 +163,15 @@
               ab? Amet unde molestiae sit.</p>
           </div>
         </div>
-        <div>
-          <div>
+        <div class="job">
+          <div class="injob">
             <img src="./imgs/code.png" alt="icon">
           </div>
-          <div>
+          <div class="injob">
             <h3>Job Title</h3>
             <h3>Company Name</h3>
           </div>
-          <div>
+          <div class="injob">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dolores quas officiis debitis natus
               dicta animi, doloremque harum asperiores nostrum voluptatum delectus, aliquam iste nesciunt porro,
               provident aliquid impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam obcaecati ea
@@ -152,15 +179,15 @@
               ab? Amet unde molestiae sit.</p>
           </div>
         </div>
-        <div>
-          <div>
+        <div class="job">
+          <div class="injob">
             <img src="./imgs/code.png" alt="icon">
           </div>
-          <div>
+          <div class="injob">
             <h3>Job Title</h3>
             <h3>Company Name</h3>
           </div>
-          <div>
+          <div class="injob">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dolores quas officiis debitis natus
               dicta animi, doloremque harum asperiores nostrum voluptatum delectus, aliquam iste nesciunt porro,
               provident aliquid impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam obcaecati ea
@@ -173,16 +200,16 @@
   </main>
   <footer>
     <section>
-      <h2>Get in Touch</h2>
-      <form>
-        <input type="text">
-        <input type="text">
-        <textarea></textarea>
-        <input type="submit">
+      <h2 class="name" style="color: white; font-size: 44px;">Get in Touch</h2>
+      <form> 
+        <input type="text" class="in">
+        <input type="text" class="in">
+        <textarea class="in" style="height: 200px;"></textarea>
+        <input type="submit" class="in">
       </form>
     </section>
     <section>
-      <div>
+      <div class="social">
         <img src="./imgs/social.png" alt="social">
         <img src="./imgs/social.png" alt="social">
         <img src="./imgs/social.png" alt="social">
