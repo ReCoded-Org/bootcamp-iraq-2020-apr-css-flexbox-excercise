@@ -5,17 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Name - Homepage</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
-    <nav>
-      <div>
+    <nav class="flex-container">
+      <div class="logo">
         <a href="#">
           <img src="./imgs/logo.png" alt="logo">
         </a>
       </div>
-      <ul>
+      <ul class="bars">
         <li>
           <a href="#">About</a>
         </li>
@@ -32,13 +33,13 @@
     </nav>
   </header>
   <main>
-    <section>
-      <h1>My Name</h1>
-      <h2>My Title</h2>
-      <h3>Where I am From</h3>
+    <section class="name">
+      <h1 class="item">My Name</h1>
+      <h2 class="item">My Title</h2>
+      <h3 class="item">Where I am From</h3>
     </section>
-    <section>
-      <div>
+    <section class="sec">
+      <div class="about">
         <h2>
           About me
         </h2>
@@ -53,13 +54,13 @@
         </p>
       </div>
     </section>
-    <section>
+    <section class="skills">
       <h2>My Skills</h2>
       <div>
-        <ul>
+        <ul class="items">
           <li>
-            <div>
-              <div><img src="./imgs/skill.png" alt="icon"></div>
+            <div class="list">
+              <div class="icon"><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
                 ipsum voluptatibus voluptatum incidunt quas cum numquam hic, deserunt voluptatem modi eum quisquam
@@ -67,8 +68,8 @@
             </div>
           </li>
           <li>
-            <div>
-              <div><img src="./imgs/skill.png" alt="icon"></div>
+            <div class="list">
+              <div class="icon"><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
                 ipsum voluptatibus voluptatum incidunt quas cum numquam hic, deserunt voluptatem modi eum quisquam
@@ -76,8 +77,8 @@
             </div>
           </li>
           <li>
-            <div>
-              <div><img src="./imgs/skill.png" alt="icon"></div>
+            <div class="list">
+              <div class="icon"><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
                 ipsum voluptatibus voluptatum incidunt quas cum numquam hic, deserunt voluptatem modi eum quisquam
@@ -85,8 +86,8 @@
             </div>
           </li>
           <li>
-            <div>
-              <div><img src="./imgs/skill.png" alt="icon"></div>
+            <div class="list">
+              <div class="icon"><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
                 ipsum voluptatibus voluptatum incidunt quas cum numquam hic, deserunt voluptatem modi eum quisquam
@@ -94,8 +95,8 @@
             </div>
           </li>
           <li>
-            <div>
-              <div><img src="./imgs/skill.png" alt="icon"></div>
+            <div class="list">
+              <div class="icon"><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
                 ipsum voluptatibus voluptatum incidunt quas cum numquam hic, deserunt voluptatem modi eum quisquam
@@ -103,8 +104,8 @@
             </div>
           </li>
           <li>
-            <div>
-              <div><img src="./imgs/skill.png" alt="icon"></div>
+            <div class="list">
+              <div class="icon"><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
                 ipsum voluptatibus voluptatum incidunt quas cum numquam hic, deserunt voluptatem modi eum quisquam
@@ -116,19 +117,29 @@
     </section>
     <section>
       <!-- Put your divs here as required for that section grid style-->
+      <div class="grid-container">
+        <div class="grid-item big-item-A">A</div>
+        <div class="grid-item big-item-B">B</div>
+        <div class="grid-item big-item-C">C</div>
+        <div class="grid-item big-item-D">D</div>
+        <div class="grid-item big-item-E">E</div>
+        <div class="grid-item big-item-F">F</div>
+        <div class="grid-item big-item-G">G</div>
+        <div class="grid-item big-item-H">H</div>
+        </div>
     </section>
     <section>
       <h2>My Experience</h2>
-      <div>
-        <div>
-          <div>
+      <div class="job">
+        <div class="row">
+          <div class="image">
             <img src="./imgs/code.png" alt="icon">
           </div>
-          <div>
+          <div class="title">
             <h3>Job Title</h3>
             <h3>Company Name</h3>
           </div>
-          <div>
+          <div class="details">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dolores quas officiis debitis natus
               dicta animi, doloremque harum asperiores nostrum voluptatum delectus, aliquam iste nesciunt porro,
               provident aliquid impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam obcaecati ea
@@ -136,15 +147,15 @@
               ab? Amet unde molestiae sit.</p>
           </div>
         </div>
-        <div>
-          <div>
+        <div class="row">
+          <div class="image">
             <img src="./imgs/code.png" alt="icon">
           </div>
-          <div>
+          <div class="title">
             <h3>Job Title</h3>
             <h3>Company Name</h3>
           </div>
-          <div>
+          <div class="details">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dolores quas officiis debitis natus
               dicta animi, doloremque harum asperiores nostrum voluptatum delectus, aliquam iste nesciunt porro,
               provident aliquid impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam obcaecati ea
@@ -152,15 +163,15 @@
               ab? Amet unde molestiae sit.</p>
           </div>
         </div>
-        <div>
-          <div>
+        <div class="row">
+          <div class="image">
             <img src="./imgs/code.png" alt="icon">
           </div>
-          <div>
+          <div class="title">
             <h3>Job Title</h3>
             <h3>Company Name</h3>
           </div>
-          <div>
+          <div class="details">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dolores quas officiis debitis natus
               dicta animi, doloremque harum asperiores nostrum voluptatum delectus, aliquam iste nesciunt porro,
               provident aliquid impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam obcaecati ea
@@ -182,7 +193,7 @@
       </form>
     </section>
     <section>
-      <div>
+      <div class="social">
         <img src="./imgs/social.png" alt="social">
         <img src="./imgs/social.png" alt="social">
         <img src="./imgs/social.png" alt="social">
