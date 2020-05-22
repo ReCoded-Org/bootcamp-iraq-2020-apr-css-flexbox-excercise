@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    
+}
+#logo{
+    text-align: left;
+}
+nav{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+nav div{
+    width: 50%;
+    padding: 10px 20px;
+    order: 1;
+    font-size: 32px;
+    counter-reset: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    order: 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header nav ul li{
+    display: inline;
+    padding: 10px 20px;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+a:visited{
+ color: gray;
+}
+main{
+    height: auto;
+}
+.ahmad{
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ahmad h1{
+    align-self: center;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.ahmad h2{
+    align-self: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.ahmad h3{
+    align-self: center;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: -30px;
+}
+.about-me{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 400px;
+    flex-direction: column-reverse;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    background-color: gray;
+    color: white;
+    align-items: flex-end;
+    
+}
+.about-me div{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(126, 124, 124);
+    justify-content: space-around;
+    width: 50%;
+    height: 66%;
+    margin: auto;
+    margin-top: 90px;
+    padding: 20px;
+}
+.about-me div p{
+    text-align: left;
+    margin-bottom:50px;
+}
+.about-me div h2{
+    align-self: center;
+    font-size: 48px;
+    
+}
+
+.my-skills-section{
+    margin-top: 50px;
+}
+.my-skills{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+div img{
+    width: 50px;
+    height: 50px;
+}
+
+.skills-edit{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 3px solid gray;
+    align-items: center;
+    margin: 40px;
+    color: gray;
+}
+.skills-edit:hover{
+    transform: scale(1.1);
+}
+ul {
+    list-style-type: none;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+.job{
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+}
+.discription{
+    text-align: left;
+    width: 35%;
+}
+.logo{
+    margin-left: 50px;
+    text-align: left;
+    width: 20%;
+}
+.job-title{
+    width: 35%;
+    font-size: 35px;
+}
+.job-1{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 20%;
+}
+.exp{
+    margin-top: 100px;
+    height: auto;
+}
+.white{
+    color: white;
+    margin-top: 50px;
+}
+
+footer{
+    position: relative;
+    top: 100px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    align-items: center;
+}
+footer div{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+input[type="text"]{
+    width: 100%;
+    height: 30px;
+}
+
+.social-links{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    
+}
+
+textarea{
+    width: 100%;
+    
+}
+input[type="submit"]{
+    background-color: rgb(158, 157, 157);
+    width: 100%;
+    color: rgb(158, 157, 157);
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200%;
+}
+#small{
+    height: 40px;
+}
+
+#input{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+.unwanted{
+    
+    text-align: center;
+    margin-top: 150px;
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 1;
+    border: 1px solid white;
+    box-shadow: 20px 0px 20px 0px lightgray;
+    justify-content: space-evenly;
+}
+
+.unwanted .left{
+    margin: 0 auto;
+    width: 95%;
+    height: 95%;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 66%;
+}
+.unwanted .right{
+    margin: 0 auto;
+    width: 95%;
+    height: 95%;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+.left-top{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 100%;
+}
+.left-top div{
+    text-align: left;
+    background-color: lightgray;
+    margin: 20px;
+}
+
+.left-bottom{
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+}
+.left-bottom-left{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+}
+.left-bottom-right{
+    text-align: left;
+    background-color: lightgray;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+.left-bottom-left div{
+    text-align: left;
+    background-color: lightgray;
+    margin: 20px;
+}
+.right-left{
+    background-color: lightgray;
+    margin: 20px;
+    margin-left: 0px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.right-right{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 75% 25%;
+    margin-bottom: 10px;
+}
+.right-right div{
+    text-align: left;
+    background-color: lightgray;
+    margin: 20px;
+}
+.unwanted-header{
+    margin: 20px 20px;
+    color: white;
+}
+
+.fas{
+    color: gray;
+}
+.fab{
+    color: white;
+}
+.social-links{
+    margin-bottom: 40px;
+}
