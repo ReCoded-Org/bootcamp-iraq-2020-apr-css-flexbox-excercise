@@ -1,0 +1,280 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Manrope', sans-serif;
+}
+.navbar{
+  font-size: 1.1em;
+  display: flex;
+  justify-content:flex-end;
+  align-items: flex-start;
+}
+
+.logo-nav{
+ width: 80px;
+ height: 80px;
+ margin-left: 15px;
+ margin-top: 10px;
+
+}
+.nb{
+  flex-basis: 9%;
+  align-items: flex-start;
+  list-style-type: none;
+ 
+}
+.nb a{
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(138, 137, 137);
+  font-family: Arial, sans-serif;
+ top: 0;
+}
+.item1{
+  order:4;
+}
+
+.content-1{
+  margin-top: 13%;
+	margin-left: 20px;
+ height: 80vh;
+ flex-direction: column;
+ position: relative;  
+ font-size:2rem;
+ text-align: center;
+ line-height: 5rem;
+ color: rgb(138, 137, 137);
+ 
+}
+/* ----------------------------------- About my---------------------------------*/
+.content2{ 
+ height: 100vh;
+ background-color:rgb(138, 137, 137);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+}
+
+.text{
+  width:60%;
+ /* height: 55vh;*/
+  display: flex;
+  flex-direction: column;
+  margin-top: 9%;
+  background-color: rgb(153, 152, 152);
+  padding: 3em;
+  font-size:1rem;
+  color: white;
+  
+  
+} 
+.text h2{
+  padding-bottom:20px;
+  font-size:3rem;
+}
+.text p{
+  text-align: justify;
+}
+/* -----------------------------------my skill---------------------------------*/
+.content3{
+  background-color: rgb(245, 239, 239);
+  padding-top: 50px;
+  padding-bottom: 100px;
+  color: rgb(138, 137, 137);
+}
+.content3 h2{
+   align-items: center;
+   margin-bottom: 18px;
+   margin-left: 42%;
+   font-size: 3rem;
+
+}
+.col{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+.skill-logo{
+  width: 40px;
+  height: 40px;
+  list-style: none;
+
+}
+.skill-sec{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  
+  
+}
+.skill-box{
+  margin:90px ;
+  width: 260px;
+  height: 300px;
+  padding: 10px; 
+  text-align: center;
+  border: 2 solid rgb(87, 85, 85);
+}
+.skill-sec li .skill-box{
+  border: 2 solid rgb(87, 85, 85);
+}
+
+.skill-box h3{
+  font-size: 2rem;
+  padding:12px 0;
+}
+.skill-box p{
+  text-align: justify;
+  font-size:17px;
+}
+/* ----------------------------------- grid style ---------------------------------*/
+.letter1 { grid-area: A; }
+.letter2 { grid-area: B; }
+.letter3 { grid-area: C; }
+.letter4 { grid-area: D; }
+.letter5 { grid-area: E; }
+.letter6 { grid-area: F; }
+.letter7 { grid-area: G; }  
+.letter8 { grid-area: H; }
+.grid-content {
+  display: grid;
+  grid-template:
+    'A A B B B F F G G '
+    'C E E E E F F G G'
+    'D E E E E F F H H';
+  grid-gap: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.grid-content > div {
+  background-color: rgba(197, 193, 193, 0.8);
+  padding: 50px 0;
+  font-size: 30px;
+  color: white;
+}
+.letter1{
+  padding: 30px 30px;
+}
+
+/* --------------------------- my exeperince --------------------------------------*/
+.content4{
+  background-color: rgb(245, 239, 239);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: rgb(138, 137, 137);
+
+}
+.content4 h2{
+  align-items: center;
+  margin-bottom: 60px;
+  margin-left: 37%;
+  font-size: 3rem;
+
+}
+.code-logo{
+  width: 40px;
+  height: 40px;
+  list-style: none;
+  margin-left: 60px;
+  margin-top: 50%;
+  
+}
+
+.exper-box{
+  display: flex;
+  flex-direction: row;
+   width: 100%;
+   height: 300px;
+  
+}
+.exper-box h3{
+  position: relative;
+  text-align: center;
+  align-content: center;
+  width:8em;
+  margin-top: 10%;
+  font-size:40px;
+}
+.title h3{
+  position: relative;
+  align-items: right;
+  margin-left: 170px;
+}
+.exper-box p{
+  font-size:17px;
+  float: right;
+  width: 60%;
+  padding: 0 0;
+  text-align: justify;
+  margin-right: 15px;
+  margin-top: 5%;
+  
+  
+}
+footer{
+  background-color: rgb(138, 137, 137);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: rgb(245, 239, 239);
+}
+footer h2{
+  align-items: center;
+  margin-bottom: 70px;
+  margin-left: 40%;
+  font-size: 3.3rem;
+  letter-spacing: 2px;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+form{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.contact form{
+	position: relative;
+	z-index: 1000;
+}
+.contact .input-control{
+  height: 50px;
+  width: 35rem;
+  margin-bottom: 40px;
+  background:rgb(245, 239, 239);
+  color: #fff;
+  font-size: 1.25rem;
+
+}
+.contact .textarea{
+  min-height: 170px;
+  width: 35rem;
+  margin-bottom: 40px;
+  background:rgb(245, 239, 239);
+}
+
+.icon{
+  width: 80px;
+  height: 80px;
+  margin-top: 60px;
+  margin-left:70px;
+  cursor: pointer;
+  
+}
+.icon:hover{
+  width:90px ;
+  height: 90px;
+}
+.social-icons{
+  text-align: center;
+}
