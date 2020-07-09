@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>My Name - Homepage</title>
 </head>
 
@@ -12,10 +13,11 @@
     <nav>
       <div>
         <a href="#">
-          <img src="./imgs/logo.png" alt="logo">
+          <img src="./imgs/logo.png" alt="logo" class="logo">
         </a>
       </div>
-      <ul>
+   
+      <ul  class="nav-ul">
         <li>
           <a href="#">About</a>
         </li>
@@ -29,16 +31,19 @@
           <a href="#">Contact Me</a>
         </li>
       </ul>
+    
     </nav>
   </header>
+
   <main>
-    <section>
+    <section class="sec1">
       <h1>My Name</h1>
       <h2>My Title</h2>
       <h3>Where I am From</h3>
     </section>
-    <section>
-      <div>
+
+    <section class="sec2">
+      <div class="sec2p">
         <h2>
           About me
         </h2>
@@ -53,12 +58,22 @@
         </p>
       </div>
     </section>
-    <section>
-      <h2>My Skills</h2>
-      <div>
-        <ul>
+
+    <section class="sec3">
+      <h2 class="styleh">My Skills</h2>
+      <div >
+        <ul class="sec-3-ul">
           <li>
-            <div>
+            <div class="sec3div">
+              <div ><img src="./imgs/skill.png" alt="icon"></div>
+              <h3 >Skill Name</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
+                ipsum voluptatibus voluptatum incidunt quas cum numquam hic, deserunt voluptatem modi eum quisquam
+                dolore in esse.</p>
+            </div>
+          </li>
+          <li>
+            <div class="sec3div">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -67,7 +82,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="sec3div">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -76,7 +91,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="sec3div">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -85,7 +100,7 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="sec3div">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -94,16 +109,7 @@
             </div>
           </li>
           <li>
-            <div>
-              <div><img src="./imgs/skill.png" alt="icon"></div>
-              <h3>Skill Name</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
-                ipsum voluptatibus voluptatum incidunt quas cum numquam hic, deserunt voluptatem modi eum quisquam
-                dolore in esse.</p>
-            </div>
-          </li>
-          <li>
-            <div>
+            <div class="sec3div">
               <div><img src="./imgs/skill.png" alt="icon"></div>
               <h3>Skill Name</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laboriosam! Odit possimus sit quod,
@@ -114,21 +120,33 @@
         </ul>
       </div>
     </section>
+    
     <section>
       <!-- Put your divs here as required for that section grid style-->
+      <div class="grid-container">
+        <div class="item1">A</div>
+        <div class="item2">B</div>
+        <div class="item3">C</div> 
+        <div class="item4">D</div>
+        <div class="item5">E</div>
+        <div class="item6">F</div> 
+        <div class="item7">G</div>
+        <div class="item8">H</div>
+      </div>
     </section>
-    <section>
-      <h2>My Experience</h2>
-      <div>
-        <div>
-          <div>
+
+    <section class="sec4">
+      <h2 class="styleh">My Experience</h2>
+      <div >
+        <div class="sec4div">
+          <div class="sec-4-div-img">
             <img src="./imgs/code.png" alt="icon">
           </div>
-          <div>
+          <div class="sec-4-div-h">
             <h3>Job Title</h3>
             <h3>Company Name</h3>
           </div>
-          <div>
+          <div class="sec-4-div-p">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dolores quas officiis debitis natus
               dicta animi, doloremque harum asperiores nostrum voluptatum delectus, aliquam iste nesciunt porro,
               provident aliquid impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam obcaecati ea
@@ -136,15 +154,16 @@
               ab? Amet unde molestiae sit.</p>
           </div>
         </div>
-        <div>
-          <div>
+        
+        <div class="sec4div">
+          <div class="sec-4-div-img">
             <img src="./imgs/code.png" alt="icon">
           </div>
-          <div>
+          <div class="sec-4-div-h" >
             <h3>Job Title</h3>
             <h3>Company Name</h3>
           </div>
-          <div>
+          <div class="sec-4-div-p">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dolores quas officiis debitis natus
               dicta animi, doloremque harum asperiores nostrum voluptatum delectus, aliquam iste nesciunt porro,
               provident aliquid impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam obcaecati ea
@@ -152,15 +171,16 @@
               ab? Amet unde molestiae sit.</p>
           </div>
         </div>
-        <div>
-          <div>
+
+        <div class="sec4div">
+          <div class="sec-4-div-img">
             <img src="./imgs/code.png" alt="icon">
           </div>
-          <div>
+          <div class="sec-4-div-h">
             <h3>Job Title</h3>
             <h3>Company Name</h3>
           </div>
-          <div>
+          <div class="sec-4-div-p">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dolores quas officiis debitis natus
               dicta animi, doloremque harum asperiores nostrum voluptatum delectus, aliquam iste nesciunt porro,
               provident aliquid impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam obcaecati ea
@@ -171,17 +191,19 @@
       </div>
     </section>
   </main>
-  <footer>
-    <section>
-      <h2>Get in Touch</h2>
-      <form>
+
+  <footer  class="sec5">
+    <section class="sec-5-height">
+      <h2 class="styleh" style="color: white; margin: 20px; ">Get in Touch</h2>
+      <form class="sec5form">
+        <input type="text" >
         <input type="text">
-        <input type="text">
-        <textarea></textarea>
+        <textarea style="height: 50%;"></textarea>
         <input type="submit">
       </form>
     </section>
-    <section>
+
+    <section class="sec5logo">
       <div>
         <img src="./imgs/social.png" alt="social">
         <img src="./imgs/social.png" alt="social">
