@@ -1,0 +1,237 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+  }
+  .container{
+    display:flex;
+    flex-flow:flex-direction;
+  }
+  .container img{
+    width:40px;
+    height: 40px;
+  
+  
+  
+  }
+   .ul-child{
+    display: flex;
+    justify-content:flex-end;
+    margin-left:auto;
+    
+  
+  }
+  .ul-child li,.child-row-1 li,.child-row-2 li{
+    
+    margin:10px;
+    list-style-type: none;
+    
+  }
+  .ul-child li a{
+    text-decoration:none;
+    color:#807D77;
+  }
+  .li1{
+    order:3;
+  }
+  .li2{
+    order:1;
+  }
+  .li3{
+  order:2;
+  }
+  
+  .info{
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+    flex-direction:column;
+    margin-bottom:50px;
+    color:gray;
+  }
+  .about{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    background-color:#807D77;
+    color:white;
+    height:300px;
+     align-items:center;
+  }
+  
+  .aboutdiv{
+    width:50%;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background-color:#7B7973;
+    
+  }
+  #about{
+    padding:10px;
+    color:white;
+  }
+  .aboutdiv p{
+  padding: 20px ;
+  }
+  h2{
+    text-align:center;
+    margin:10px auto 30px auto;
+    color:gray;
+  }
+  #img{
+    width:40px;
+    height: 40px;
+    
+  }
+  .border{
+  border: 2px solid gray;
+  padding:20px;
+  text-align: center;
+  }
+  
+  
+
+ 
+     /* width of the child by flexbox
+     flex-basis:30%;*/
+   
+  
+  .child-row-1{
+   
+    display:flex;
+    justify-content:space-around;
+}
+ .child-row-1 li{
+     flex-basis: 20%;
+     color:gray;
+ }
+ .child-row-2{
+    display:flex;
+    justify-content:space-around;
+
+ }
+ .child-row-2 li{
+    flex-basis: 20%;
+    color:gray;
+}
+
+.grid-container{
+    display:grid;
+    color:white;
+    /*grid-template-columns:  auto auto auto auto auto auto auto auto;*/
+    
+    grid-gap: 15px;
+    margin:50px 0px 50px 0px;
+
+}
+.grid-item {
+    background-color:gainsboro;
+   
+    padding: 0px 100px 100px 0px;
+}
+.item-a{
+    grid-column: 1 / span 2;
+    grid-row: 1/span 2;
+}
+.item-b{
+    grid-column: 3 / span 5;
+    grid-row: 1/span 2;
+}
+
+.item-c{
+    grid-column: 1;
+    grid-row: 3;
+}
+.item-d{
+    grid-column: 1;
+    grid-row: 4;
+   
+}
+.item-e{
+    grid-column: 2/span 4;
+    grid-row: 3/span 4;
+}
+.item-f{
+    grid-column: 6 / span 9;
+    grid-row: 1/span 4;
+    background: black;
+   
+}
+
+.item-g{
+    grid-column: 10 /span 11;
+    grid-row: 1/span 3;
+    background: blue;
+}
+.item-h{
+    grid-column: 10/span 11;
+    grid-row: 4;
+    background: red;
+}
+.experience{
+    display:flex;
+    /* space around not work */
+    justify-content:space-around;
+    margin:50px 0px 50px 0px;
+}
+.experience div img{
+    width:40px;
+    height: 40px;
+  
+}
+
+.experience div{
+    flex-basis: 40%;
+    color:gray;
+}
+.back ,.back h2{
+    background: gray;
+    color:white;
+}
+.back-sec3{
+    display:flex;
+    justify-content:space-around;
+    background: gray;
+}
+.back-sec3 img{
+    width:40px;
+    height: 40px;
+    background: gray;
+    
+}
+.form-ver{
+    display:flex;
+    flex-direction: column;
+   
+    justify-content:center;
+}
+
+/*  not work */
+.grow{
+    flex-grow:10;
+    justify-content:center;
+}
+
+.form-ver2{
+  margin:10px 450px 10px 450px;
+}
+
+.input{
+    margin:10px 600px 10px 600px;
+    padding:10px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
